@@ -1,0 +1,80 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 40px;
+  text-align: center;
+  font-weight: bold;
+  background: #8d8d8d;
+}
+
+img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: auto;
+}
+
+#container {
+  width: 120px;
+  margin: 0 auto;
+  background: white;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+#container #timer {
+  font-size: 20px;
+  text-align: right;
+  padding: 10px 10px 0 10px;
+}
+#container #board {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+#container #board li {
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 4px;
+  background: #00aaff;
+  color: white;
+  box-shadow: 0 4px #006ea5;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+#container #board li.pressed {
+  cursor: default;
+  background: #ccc;
+  box-shadow: none;
+  margin-top: 9px;
+  margin-bottom: 1px;
+}
+#container #btn {
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  border-radius: 4px;
+  background: red;
+  color: white;
+  box-shadow: 0 4px #6f0000;
+  padding-block: 1rem;
+  width: 100px;
+  margin: 0 auto;
+}
+
+aside {
+  margin-top: 3rem;
+  width: 200px;
+  margin-inline: auto;
+}
+
+#select {
+  background: white;
+}
+/*# sourceMappingURL=style.css.map */
